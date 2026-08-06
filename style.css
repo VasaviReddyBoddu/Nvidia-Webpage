@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border;
+    font-family: "Segoe UI",
+Arial,sans-serif;
+}
+body{
+    background:#fff;
+}
+h3{
+    color:black;
+    font-size: 24px;
+    margin-top: 70px;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-size: 64px;
+    text-align: center;
+    margin: 20px 0;
+    line-height:1.1;
+    font-weight: 700;
+}
+p{
+    width: 700px;
+    max-width: 90%;
+    margin:auto;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #555;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+}
+.nav-links,.nav-right{
+    display:flex;
+    list-style: none;
+    gap:35px;
+}
+.nav-links a,.nav-right a{
+    text-decoration: none;
+    color: #555;
+}
+.logos{
+    width: 1100px;
+    margin:60px auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logos img{
+    height: 35px;
+    object-fit: contain;
+}
+.h3{
+    padding-bottom: 50px;
+}
+.logos{
+    padding-top: 20px;
+}
+.button{
+    display:block;
+    margin: 30px auto;
+    background: #76b900;
+    border: none;
+    font-size: 16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.h3{
+    margin-top: 80px;
+}
+lol{
+    text-align: center;
+    margin-top: 80px;
+}
+.lol p{
+    width: 900px;
+    margin: 20px auto;
+    font-size: 22px;
+    line-height: 1.6;
+}
+.btn{
+    display:block;
+    margin: 35px auto 50px;
+    font-size:20px;
+    font-weight: bold;
+    cursor:pointer;
+    background: #76b900;
+    color:#fff;
+    border:none;
+    padding:15px 35px;
+
+}
