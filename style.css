@@ -14,7 +14,7 @@ h3{
     margin-top: 70px;
     text-align: center;
 }
-h1{
+h1{ 
     color: black;
     font-size: 64px;
     text-align: center;
@@ -23,46 +23,48 @@ h1{
     font-weight: 700;
 }
 p{
-    width: 700px;
+    width: 1050px;
     max-width: 90%;
     margin:auto;
     font-size: 22px;
     line-height: 1.6;
     color: #555;
+    text-align: center;
 }
 .navbar{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 60px;
+    padding: 7px 80px; 
 }
 .nav-links,.nav-right{
     display:flex;
     list-style: none;
-    gap:35px;
+    gap:20px;
 }
 .nav-links a,.nav-right a{
     text-decoration: none;
     color: #555;
 }
-.logos{
+.logos1,.logos2,.logos3,.logos4{
     width: 1100px;
-    margin:60px auto;
+    max-width: 90%;
+    margin: 35px auto;
     display:flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-wrap:nowrap;
 }
-.logos img{
-    height: 35px;
+
+.logos1 img,.logos2 img,.logos3 img,.logos4 img{
+    width: 95px;
+    flex-shrink: 0;
+    height: 45px;
     object-fit: contain;
 }
 .h3{
     padding-bottom: 50px;
 }
-.logos{
-    padding-top: 20px;
-}
+
 .button{
     display:block;
     margin: 30px auto;
@@ -73,7 +75,7 @@ p{
     cursor:pointer;
 }
 .h3{
-    margin-top: 80px;
+    padding-bottom: 50px;
 }
 lol{
     text-align: center;
