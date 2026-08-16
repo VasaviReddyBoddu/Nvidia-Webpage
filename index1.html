@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            WebPage
+        </title>
+
+        <body>
+            <h1><b>Details</b></h1>
+            <p id = "Biodata"></p>
+            <script>
+                let name = prompt("What is your name?");
+                let age = prompt("What is your Age?");
+                let college = prompt("What is your college name?");
+                let branch = prompt("What is your branch name?");
+
+                document.getElementById("Biodata").innerHTML = "Name"+":"+ name + "<br>"+
+                                                                "Age"+":"+ age + "<br>"+
+                                                                "College"+":"+ college + "<br>"+
+                                                                "Branch"+":"+ branch;
+
+            </script>
+        </body>
+    </head>
+</html>
